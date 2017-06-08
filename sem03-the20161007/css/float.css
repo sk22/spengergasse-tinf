@@ -1,0 +1,26 @@
+.left, .right {
+  background-color: #540A7F;
+  border: 5px solid #A914FF;
+  width: 20%;
+  margin: 0 auto 2rem;
+  padding: 30px;
+}
+
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.right {
+  float: right;
+  margin-left: 1rem;
+}
+
+.clearfix {
+  clear: both;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 959px) {
+  div#page_wrapper {
+    width: 100%;
+  }
+
+  div#navigation li, div#navigation li.first {
+    width: 30%;
+    margin: 1% 1.5% 0 1.5%;
+  }
+
+  img.logo {
+    float: none;
+    clear: both;
+    margin: 1% auto 0 auto;
+    display: block;
+  }
+
+  span.slogan {
+    float: none;
+    clear: both;
+    margin: 1% auto 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  div#right {
+    width: 100%;
+  }
+
+  div.widget {
+    width: 80%;
+    margin: 1% auto 0 auto;
+  }
+
+  div#main {
+    width: 100%;
+  }
+}

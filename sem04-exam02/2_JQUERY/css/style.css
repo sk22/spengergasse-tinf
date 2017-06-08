@@ -1,0 +1,28 @@
+body {
+    background-color: #CCE5FF;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#figure {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+#photo {
+    position: absolute;
+    left: -400px;
+}
+
+#caption {
+    position: absolute;
+    width: 	240px;
+    background-color: white;
+    bottom: 10px;
+    left: 24px;
+    padding: 5px;
+    border: 1px solid white;
+    display: none;
+}

@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+
+  background: linear-gradient(#e0e0e0, #252525);
+  font-family: Roboto, sans-serif;
+}
+
+h2 {
+  font-style: italic;
+}
+
+.container {
+  margin: 2em auto;
+  width: 1280px;
+}
+
+.container > * {
+  padding: 1em 5em;
+}
+
+.header, .footer {
+  color: #BFBEBE;
+}
+
+.header {
+  background: radial-gradient(at bottom left, #8F8F8F, #040303);
+  border-radius: 40px 40px 0 0; 
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar li a:hover {
+  background: #b55b12;
+  color: #e0e0e0;
+}
+
+.navbar li + li {
+  margin-left: 10px;
+}
+
+.navbar li a {
+  color: #606060;
+  text-decoration: none;
+  padding: .6em 1.5em;
+  border-radius: .5em;
+  background: #BFBEBE;
+  display: block;
+}
+
+
+.main {
+  background: white;
+  box-shadow: 0 0 1em #606060;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero__description {
+  background: #252525;
+  padding: 1em;
+  color: #8F8F8F;
+}
+
+.hero__description h2 {
+  margin: 0;
+}
+
+.hero__image img {
+  height: 100%;
+}
+
+.gallery {
+  display: flex;
+  margin-top: 1em;
+}
+
+.gallery > * {
+  flex: 1;
+}
+
+.gallery__content {
+  float: right;
+}
+
+.gallery__content img {
+  border: .2em solid white;
+  margin: .1em;
+}
+
+.gallery__row {
+  display: flex;
+}
+
+.gallery__images {
+  display: flex;
+  background-color: #8F8F8F;
+  flex-direction: column;
+}
+
+.gallery__link {
+  display: block;
+  margin: 1em;
+  text-align: center;
+  font-weight: bold;
+  color: #FF9900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer {
+  background: #040303;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 40px 40px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 630px) {
+  .header, .footer {
+    border-radius: 0;
+  }
+
+  .container {
+    width: auto;
+    margin: 0;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+  
+  .navbar li + li {
+    margin-left: 0;
+    margin-top: .3em;
+  }
+
+  .container > * {
+    padding: 1em 1em;
+  }
+  
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__image img {
+    width: 100%;
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery__content {
+    float: none;
+  }
+
+  .gallery__content img {
+    width: 100%;
+    height: 100%;
+  }
+}

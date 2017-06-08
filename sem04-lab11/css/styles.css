@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #111;
+}
+
+.slideshow {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.slideshow__current {
+  width: 100%;
+}
+
+.slideshow__thumbnails {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  /* justify-content: space-between; */
+}
+
+.slideshow__thumbnails img + img {
+  margin-left: .5rem;
+}

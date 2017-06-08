@@ -1,0 +1,45 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: darkred;
+}
+
+header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+body {
+  margin-top: 3rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.logo {
+  height: 100px;
+}
+
+.sources th {
+  text-align: left;
+  border-right: 1px solid black;
+}
+
+.sources td, th {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+      width: 100%;
+      height: auto;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}

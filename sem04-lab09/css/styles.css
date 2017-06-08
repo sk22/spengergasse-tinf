@@ -1,0 +1,358 @@
+/*****************************************
+ GENERAL STYLES   
+ *****************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #142B40;
+    padding: 15px 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0 10px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 10px 0 10px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10px 0 10px 0;
+}
+
+p {
+    margin: 5px 0 25px 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+button {
+    font-size:  1.2em;
+    margin-bottom: 2em;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+form.calculator {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0; 
+    background: #142B40; 
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+form.calculator fieldset {
+    border: none; 
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+form.calculator input { 
+    width: 18%; 
+    margin: 2%;
+    padding: 2% 0;
+    font-size: 2em;
+}
+
+form.calculator output { 
+    display: block; 
+    height: 1.5em; 
+    background: white; 
+    text-align :right; 
+    font-size: 2em; 
+    padding-right: 5%; 
+    margin: 5px 6%; 
+}
+
+div#page_wrapper {
+    width: 960px;
+    margin:  auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*****************************************
+ HEADER
+ *****************************************/
+
+div#header {
+    background-color: #28567F;
+    background-image: -ms-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: -moz-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: -o-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #142B40), color-stop(50, #28567F));
+    background-image: -webkit-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: linear-gradient(to bottom, #142B40 0%, #28567F 50%);
+}
+
+img.logo {
+    margin: 15px;
+    float: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+span.slogan {
+    display: block;
+    float: right;
+    font-size: 3em;
+    color: white;
+    font-family: 'Satisfy', sans-serif;
+    margin: 20px 30px 0 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*****************************************
+ NAVIGATION
+ *****************************************/
+div#navigation {
+    padding: 5px 0 15px 0;
+    float: none;
+}
+
+div#navigation ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+div#navigation li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 142.5px;
+    margin: 0 15px 0 0;
+}
+
+div#navigation li.first {
+    margin-left: 15px;
+}
+
+div#navigation a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: #142B40;
+    padding: 10px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+div#navigation a:hover {
+    font-weight: bold;
+    background-color: #50ADFF;
+}
+
+/*****************************************
+ CONTENT
+ *****************************************/
+
+div#content {
+    padding: 20px;   
+    background-color: #50ADFF;
+    color: #111;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-image: -ms-linear-gradient(top left, #50ADFF 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(top left, #50ADFF 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(top left, #50ADFF 0%, #50ADFF 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(100, #FFFFFF));
+    background-image: -webkit-linear-gradient(top left, #50ADFF 0%, #FFFFFF 100%);
+    background-image: linear-gradient(to bottom right, #50ADFF 0%, #FFFFFF 100%);
+}
+
+div#main {
+    width: 680px;
+    float: left;
+}
+
+/*****************************************
+ SIDEBAR
+ *****************************************/
+
+div#right {
+    width: 220px;
+    float: left;
+    margin-left: 20px;
+}
+
+div.widget {
+    width: 220px;
+    margin: 10px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+div.widget h3 {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #142B40;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+div.widget p {
+    height: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    background-color: #28567F;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    background-image: -ms-linear-gradient(top, #28567F 0%, #142B40 200%);
+    background-image: -moz-linear-gradient(top, #28567F 0%, #142B40 200%);
+    background-image: -o-linear-gradient(top, #28567F 0%, #142B40 200%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #28567F), color-stop(200, #142B40));
+    background-image: -webkit-linear-gradient(top, #28567F 0%, #142B40 200%);
+    background-image: linear-gradient(to bottom, #28567F 0%, #142B40 200%);
+}
+
+/*****************************************
+ FOOTER
+ *****************************************/
+
+div#footer {
+    background-color: #28567F;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-image: -ms-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: -moz-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: -o-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #142B40), color-stop(50, #28567F));
+    background-image: -webkit-linear-gradient(top, #142B40 0%, #28567F 50%);
+    background-image: linear-gradient(to bottom, #142B40 0%, #28567F 50%);
+}
+
+span.copyright {
+    color: white;
+    font-size: 0.8em;
+    float: right;
+    margin: 15px;
+}
+
+span.copyright a {
+    color: white;
+}
+
+span.copyright a:hover {
+    color: #CCC;
+}
+
+/*****************************************
+ RESPONSIVE - STUFE 1
+ *****************************************/
+
+@media only screen and (max-width: 959px) {
+    
+div#page_wrapper {
+    width: auto;
+    margin: 0 15px;
+}
+
+img.logo {
+    display:  block;
+    margin: auto;
+    float: none;
+    margin-top: 15px;
+}
+
+span.slogan {
+    display: block;
+    margin: auto;
+    float: none;
+    text-align: center;
+    margin-right: 0;
+}
+
+div#navigation li,
+div#navigation li.first {
+    width: 30%;
+    margin: 1.5% 1.5% 0 1.5%;
+}
+
+div#main {
+    width: auto;
+    float: none;
+}
+
+div#right {
+    width: auto;
+    float:  none;
+}
+
+div.widget {
+    width: 90%;
+    margin: 0 auto 15px auto;
+}
+
+}
+
+/*****************************************
+ RESPONSIVE - STUFE 2
+ *****************************************/
+@media only screen and (max-width: 599px) {
+
+div#navigation li,
+div#navigation li.first {
+    width: 46%;
+    margin: 2% 2% 0 2%;
+}
+    
+}
+
+/*****************************************
+ RESPONSIVE - STUFE 3
+ *****************************************/
+@media only screen and (max-width: 469px) {
+
+div#navigation li,
+div#navigation li.first {
+    width: 96%;
+    margin: 2% 2% 0 2%;
+}
+
+img.logo {
+    max-width: 90%;
+}
+
+span.slogan {
+    font-size: 1.5em;
+}
+    
+}

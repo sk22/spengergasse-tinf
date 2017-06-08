@@ -1,0 +1,66 @@
+body {
+  font-family: Ubuntu, sans-serif;
+  background-color: #222;
+  margin: 3rem 1rem;;
+}
+
+#back img {
+  margin-top: 10px;
+  display: flex;
+  background-image: url('../img/back.png');
+  background-repeat: no-repeat;
+  width: 40px;
+}
+
+.red {
+  background-color: #c22 !important;
+}
+
+.green {
+  background-color: #7a7 !important;
+}
+
+.blue {
+  background-color: #45e !important;
+}
+
+div.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+table.colorful {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+table.colorful td, th {
+  padding: 0.5rem;
+  padding-right: 1rem;
+  margin: 0;
+}
+
+table.colorful th {
+  color: white;
+  height: 2rem;
+}
+
+
+table.colorful tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table.colorful tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+table.colorful a {
+  text-decoration: none;
+  color: white
+}
+
+table.colorful a:hover {
+  text-decoration: underline;
+}

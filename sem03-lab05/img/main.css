@@ -1,0 +1,14 @@
+body{
+	color:#000000;
+	background:#ffff00;
+}
+
+h1		{
+	font-style:bold;
+	font-size:22px;
+}
+
+p		{
+	font-size:18px;
+    color: #ff00ff;
+}

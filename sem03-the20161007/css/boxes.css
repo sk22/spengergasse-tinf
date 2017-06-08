@@ -1,0 +1,14 @@
+.box {
+  background-color: #540A7F;
+  border: 5px solid #A914FF;
+  width: 50%;
+  margin: 0 auto 2rem;
+  padding: 30px;
+}
+
+#box1 {
+}
+
+#box2 {
+  border-style: dotted;
+}

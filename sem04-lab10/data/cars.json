@@ -1,0 +1,15 @@
+[
+  { "manufacturer": "Opel", "model": "Corsa" },
+  { "manufacturer": "Opel", "model": "Astra" },
+  { "manufacturer": "Opel", "model": "Zafira" },
+  { "manufacturer": "BMW", "model": "1 series" },
+  { "manufacturer": "BMW", "model": "2 series" },
+  { "manufacturer": "BMW", "model": "3 series" },
+  { "manufacturer": "BMW", "model": "4 series" },
+  { "manufacturer": "BMW", "model": "5 series" },
+  { "manufacturer": "BMW", "model": "6 series" },
+  { "manufacturer": "Mercedes", "model": "A class" },
+  { "manufacturer": "Mercedes", "model": "C class" },
+  { "manufacturer": "Mercedes", "model": "E class" },
+  { "manufacturer": "Mercedes", "model": "S class" }
+]

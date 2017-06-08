@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+aside {
+  border: 2px solid black;
+  display: block;
+  float: right;
+  width: 20%;
+}
+
+footer {
+  border: 3px dotted black;
+  display: block;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+nav ul a {
+  border: 2px solid crimson;
+  padding: 10px;
+  color: white;
+  background-color: crimson;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+nav ul a:hover {
+  box-sizing: border-box;
+  background-color: white;
+  color: crimson;
+}
+
+video {
+  width: 100%;
+}

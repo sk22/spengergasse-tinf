@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-new": "off"
+  },
+  "plugins": [
+    "html"
+  ]
+}

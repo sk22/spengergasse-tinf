@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+body {
+  background: #62307F;
+  margin: 3rem 3rem;
+  font-family: Ubuntu, sans-serif;
+  color: #F0D7FF;
+}
+
+h1 {
+  font-family: 'Ubuntu Light', sans-serif;
+}

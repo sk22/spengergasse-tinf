@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.hero { 
+  padding: 2rem;
+  background-size: cover;
+  background-image: url('../img/hero.jpg')
+}
+
+.hero .jumbotron {
+  display: flex;
+  height: 40rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.hero .jumbotron h1 {
+  margin: auto;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.site {
+  margin-top: 2rem;
+}
