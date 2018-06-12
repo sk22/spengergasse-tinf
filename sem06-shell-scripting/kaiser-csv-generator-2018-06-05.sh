@@ -1,6 +1,11 @@
 #!/bin/bash
 
-echo "Last name;First name;Age" > $1
+if
+  ! echo "Last name;First name;Age" > $1
+then
+  echo Path invalid. Sorry.
+  exit
+fi
 echo "Enter # to exit."
 
 count=0;
@@ -15,7 +20,6 @@ while true; do
   read -p "Enter age: " age
   if [ "$age" = "#" ]; then break; fi;
   
-  line="$last;$first;$age"
   printf "$last;$first;$age\n" >> $1
   echo
   
